@@ -40,7 +40,8 @@ class NewVisitorTest(unittest.TestCase):
         table = self.browser.find_element(By.ID, 'id_list_table')
         rows = table.find_element_by_tag_name('tr')
         self.assertTrue(
-            any(row.text == '1: Buy peacock feathers' for row in rows)
+            any(row.text == '1: Buy peacock feathers' for row in rows),
+            "New to-do item did not appear in table"
         )
 
         # assert 'To-Do' in self.browser.title, "Browser title was" + self.browser.title
