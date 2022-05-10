@@ -39,10 +39,15 @@ class NewVisitorTest(unittest.TestCase):
 
         table = self.browser.find_element(By.ID, 'id_list_table')
         rows = table.find_element_by_tag_name('tr')
-        self.assertTrue(
-            any(row.text == '1: Buy peacock feathers' for row in rows),
-            "New to-do item did not appear in table"
+        self.assertIn('1: Buy peacock feathers',[row.text for row in rows])
+        self.assertIn(
+            '2: Use peacock features to make a fly',
+            [row.text for row in rows]
         )
+        # self.assertTrue(
+        #     any(row.text == '1: Buy peacock feathers' for row in rows),
+        #     f"New to-do item did not appear in table. Contents were:\n{table.text}"
+        # )
 
         # assert 'To-Do' in self.browser.title, "Browser title was" + self.browser.title
 
