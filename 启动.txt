@@ -1,0 +1,3 @@
+python manage.py runserver
+python functional_test.py   ---->   python manage.py test functional_tests
+python manage.py test list
