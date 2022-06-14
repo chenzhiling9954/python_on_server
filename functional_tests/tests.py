@@ -1,3 +1,4 @@
+import os
 import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -11,6 +12,9 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
+        staging_server = os.environ.get('STAGING_SERVER')
+        if staging_server:
+            self.live_server_url = 'http://' + staging_server
         # brower = webdriver.Firefox(executable_path=r"D:\develop\python\geckodriver\geckodriver.exe",
         #         firefox_binary=r"C:\Program Files\Mozilla Firefox\firefox.exe")
 

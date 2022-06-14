@@ -2938,3 +2938,55 @@ console.warn: services.settings: main/query-stripping sync interrupted by shutdo
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1655180630568	geckodriver	INFO	Listening on 127.0.0.1:65242
+1655180633394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65243" "-no-remote" "-profile" "C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofilewZrVAh"
+JavaScript error: t035rm14ynb.cfg, line 2: ReferenceError: Components is not defined
+1655180633766	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:65243
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofilewZrVAh\\search.json.mozlz4", (void 0)))
+1655180635226	Marionette	INFO	Listening on port 65248
+DevTools listening on ws://localhost:65243/devtools/browser/913aa4f0-0494-47c6-99ed-604d2c70b204
+1655180635445	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:65241"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:65241"
+1655180636240	Marionette	INFO	Stopped listening on port 65248
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655180636827	geckodriver	INFO	Listening on 127.0.0.1:65275
+1655180639894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65276" "-no-remote" "-profile" "C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofilespgq8T"
+JavaScript error: t035rm14ynb.cfg, line 2: ReferenceError: Components is not defined
+1655180640272	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:65276
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofilespgq8T\\search.json.mozlz4", (void 0)))
+1655180641857	Marionette	INFO	Listening on port 65281
+DevTools listening on ws://localhost:65276/devtools/browser/dd043380-1700-4865-a0c9-1a7f8ab736e2
+1655180641943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:65241"
+1655180642704	Marionette	INFO	Stopped listening on port 65281
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1655180643361	geckodriver	INFO	Listening on 127.0.0.1:65308
+1655180646443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65309" "-no-remote" "-profile" "C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofileYBBlcv"
+JavaScript error: t035rm14ynb.cfg, line 2: ReferenceError: Components is not defined
+1655180646799	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:65309
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofileYBBlcv\\search.json.mozlz4", (void 0)))
+1655180648201	Marionette	INFO	Listening on port 65316
+DevTools listening on ws://localhost:65309/devtools/browser/a87492b7-8541-49fd-8255-7fa07ccac3a6
+1655180648496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:65241"
+1655180649190	Marionette	INFO	Stopped listening on port 65316
+1655180650048	geckodriver	INFO	Listening on 127.0.0.1:65343
+1655180653125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65344" "-no-remote" "-profile" "C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofilemmllqX"
+JavaScript error: t035rm14ynb.cfg, line 2: ReferenceError: Components is not defined
+1655180653482	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:65344
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofilemmllqX\\search.json.mozlz4", (void 0)))
+1655180654957	Marionette	INFO	Listening on port 65350
+DevTools listening on ws://localhost:65344/devtools/browser/5d3793f8-8011-4479-9558-a07867f97b13
+1655180655173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:65241"
+1655180655860	Marionette	INFO	Stopped listening on port 65350
