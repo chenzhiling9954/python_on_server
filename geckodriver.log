@@ -3709,3 +3709,54 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "res
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1655662033418	geckodriver	INFO	Listening on 127.0.0.1:60406
+1655662036524	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60407" "-no-remote" "-profile" "C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofilelR5aXT"
+JavaScript error: t035rm14ynb.cfg, line 2: ReferenceError: Components is not defined
+1655662036899	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60407
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofilelR5aXT\\search.json.mozlz4", (void 0)))
+1655662038390	Marionette	INFO	Listening on port 60417
+DevTools listening on ws://localhost:60407/devtools/browser/58177a2f-6c4d-4713-8452-70c54821802a
+1655662038589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://123.56.130.95"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://123.56.130.95"
+1655662040341	Marionette	INFO	Stopped listening on port 60417
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655662041026	geckodriver	INFO	Listening on 127.0.0.1:60461
+1655662044091	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60462" "-no-remote" "-profile" "C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofileTvo0hx"
+JavaScript error: t035rm14ynb.cfg, line 2: ReferenceError: Components is not defined
+1655662044456	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60462
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofileTvo0hx\\search.json.mozlz4", (void 0)))
+1655662045959	Marionette	INFO	Listening on port 60471
+DevTools listening on ws://localhost:60462/devtools/browser/6308ac83-3527-4c7e-9871-ba0d656a1570
+1655662046155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://123.56.130.95"
+1655662047265	Marionette	INFO	Stopped listening on port 60471
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1655662047955	geckodriver	INFO	Listening on 127.0.0.1:60512
+1655662051036	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60513" "-no-remote" "-profile" "C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofileCAcFYx"
+JavaScript error: t035rm14ynb.cfg, line 2: ReferenceError: Components is not defined
+1655662051434	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60513
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofileCAcFYx\\search.json.mozlz4", (void 0)))
+1655662052946	Marionette	INFO	Listening on port 60523
+DevTools listening on ws://localhost:60513/devtools/browser/10671a75-ca3d-4aa7-af0c-de2033e01642
+1655662053093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://123.56.130.95"
+1655662054183	Marionette	INFO	Stopped listening on port 60523
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1655662054905	geckodriver	INFO	Listening on 127.0.0.1:60567
+1655662057991	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60568" "-no-remote" "-profile" "C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofile0Yd3pU"
+JavaScript error: t035rm14ynb.cfg, line 2: ReferenceError: Components is not defined
+1655662058367	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60568
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Logan\\AppData\\Local\\Temp\\rust_mozprofile0Yd3pU\\search.json.mozlz4", (void 0)))
+1655662059887	Marionette	INFO	Listening on port 60577
+DevTools listening on ws://localhost:60568/devtools/browser/74b3043c-4ea5-495c-8ba8-21e8ffc6a84b
+1655662060044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://123.56.130.95"
+1655662061115	Marionette	INFO	Stopped listening on port 60577
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
