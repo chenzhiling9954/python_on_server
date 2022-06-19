@@ -12,7 +12,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
 
     def setUp(self):
         self.browser = webdriver.Firefox()
-        staging_server = os.environ.get('STAGING_SERVER')
+        staging_server = "123.56.130.95"  #  os.environ.get('STAGING_SERVER')
         if staging_server:
             self.live_server_url = 'http://' + staging_server
         # brower = webdriver.Firefox(executable_path=r"D:\develop\python\geckodriver\geckodriver.exe",
