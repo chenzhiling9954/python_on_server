@@ -22,7 +22,7 @@ def _create_directory_structure_if_necessary(site_folder):
 
 
 def _get_latest_source(source_folder):
-    if exists(source_folder + ' /.git'):
+    if exists(source_folder + '/.git'):
         run(f'cd {source_folder} && git fetch')
     else:
         run(f'git clone {REPO_URL} {source_folder}')
