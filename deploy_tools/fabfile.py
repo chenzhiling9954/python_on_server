@@ -6,7 +6,7 @@ REPO_URL = 'https://github.com/chenzhiling9954/python_on_server.git'
 
 
 def deploy():
-    site_folder = f'/home/{env.user}/sites/env.host'
+    site_folder = f'/{env.user}/sites/env.host'
     source_folder = site_folder + '/source'
     _create_directory_structure_if_necessary(site_folder)
     _get_latest_source(source_folder)
