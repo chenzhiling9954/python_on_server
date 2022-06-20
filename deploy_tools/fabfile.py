@@ -2,7 +2,7 @@ from fabric.contrib.files import append, exists, sed
 from fabric.api import env, local, run
 import random
 
-REPO_URL = 'https://gitee.com/logan_chen/python_on_server.git'
+REPO_URL = 'https://github.com/chenzhiling9954/python_on_server.git'
 
 
 def daploy():
