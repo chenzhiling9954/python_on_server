@@ -7,7 +7,7 @@ User=root
 WorkingDirectory=/root/sites/123.56.130.95/source
 ExecStart=/root/sites/SITENAME/virtualenv/bin/gunicorn \
     --bind unix:/tmp/SITENAME.socket\
-    superlists.wsgi:application
+    suplerlists.wsgi:application
 
 [Install]
 WantedBy=multi-user.target
